@@ -1,6 +1,6 @@
 # PolyForm Noncommercial License 1.0.0
 
-Copyright © 2026 PenguineDavid All Rights Reserved
+Copyright © 2026 PenguineDavid. All Rights Reserved
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to use, copy,
@@ -19,7 +19,7 @@ Any use, modification, or distribution of the Software must include appropriate
 credit to the original author:
 
 PenguineDavid  
-https://github.com/PenguineDavid/Kith
+https://github.com/PenguineDavid/Kith-2.0
 
 ## Distribution of Modifications
 
