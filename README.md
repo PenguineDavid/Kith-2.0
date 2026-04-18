@@ -375,7 +375,7 @@ g++ -std=c++17 test.cpp lexer.cpp parser.cpp codegen.cpp -o test_runner
 ## License
 
 polyform noncommercial license 1.0.0
-https://github.com/PenguineDavid/Kith-2.0/blob/master/LICENSE.md
+https://github.com/PenguineDavid/Kith-2.0/blob/main/LICENSE.md
 
 ---
 
