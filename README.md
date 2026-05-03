@@ -137,7 +137,7 @@ foreach (int n in nums) {
     print(n)
 }
 
-// switch — works on both int and str
+// switch - works on both int and str
 switch (code) {
     case 1      { print("one")   }
     case 2      { print("two")   }
@@ -167,14 +167,14 @@ switch (lang) {
 | Address / deref | `&x` `*px` |
 | Cast | `int(x)` `float(x)` `str(x)` `bool(x)` |
 | Typeof | `typeof x` |
-| Delete | `delete x` — calls `free(x)` |
+| Delete | `delete x` - calls `free(x)` |
 
 ### Strings
 
 ```kith
 str a = "normal string"
 str b = r"raw \n no escape"          // backslash not processed
-str c = $"x is {x}, y is {y}"        // interpolated — heap allocated, remember to free()
+str c = $"x is {x}, y is {y}"        // interpolated - heap allocated, remember to free()
 str d = """
 multi
 line
@@ -365,8 +365,8 @@ g++ -std=c++17 test.cpp lexer.cpp parser.cpp codegen.cpp -o test_runner
 ## Known Limitations
 
 - All functions emit `int` as their C return type regardless of what they actually return
-- No static type checking — type errors are caught by gcc, not the Kith compiler
-- Stack-only arrays — no dynamic resizing
+- No static type checking - type errors are caught by gcc, not the Kith compiler
+- Stack-only arrays - no dynamic resizing
 - `print(arr[i])` on a float array requires assigning to a local variable first: `float v = arr[i]` then `print(v)`
 - Global array elements must be compile-time constants
 
