@@ -211,7 +211,7 @@ foreach (int x in arr) {
 }
 ```
 
-Compile with `--bounds` to get runtime bounds checking:
+Compile with `--bounds` for runtime bounds checking:
 
 ```bash
 kith --bounds myprogram.kith
