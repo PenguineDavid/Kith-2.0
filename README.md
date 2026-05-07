@@ -351,14 +351,6 @@ func main()
 | `--bounds` | Enable runtime bounds checking for array index operations |
 | `--help` | Print usage information |
 
----
-
-## Building the Test Suite
-
-```bash
-g++ -std=c++17 test.cpp lexer.cpp parser.cpp codegen.cpp -o test_runner
-./test_runner
-```
 
 ---
 
