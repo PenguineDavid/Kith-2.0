@@ -378,3 +378,4 @@ https://github.com/PenguineDavid/Kith-2.0/blob/main/LICENSE.md
 - Add support for heap-allocated arrays. Currently all arrays are stack-allocated C arrays, which means their size must be known at compile time and they can't be resized. Adding heap arrays would allow for dynamic resizing and more flexible data structures, but it would also require implementing a memory management strategy (e.g. reference counting or garbage collection) to avoid leaks.
 - Add support for C++ like syntax for functions with func int add(int a, int b) { ... } and func void print(string s) { ... }. This would require changes to the parser to allow optional return types and to the codegen to emit the correct C function signatures.
 - Add support for classes and inheritance. This would be a major feature that would require a lot of design work to figure out how to map class concepts to C structures and functions.
+- Remove heavy dependencies, like math.h in the transpiled c.
