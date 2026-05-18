@@ -378,13 +378,6 @@ func main()
 
 ---
 
-## License
-
-polyform noncommercial license 1.0.0
-https://github.com/PenguineDavid/Kith-2.0/blob/main/LICENSE.md
-
----
-
 ## Coming Soon Ish(I hope)
 
 - Make sure interpolated strings get freed properly. Currently only interpolated locals are freed, and even then only when the variable goes out of scope - if you assign an interpolated string to a global variable, it will never be freed. A more robust solution would be to track all allocated strings and free them at program exit, but that might be overkill for this project.
