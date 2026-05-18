@@ -26,6 +26,20 @@ Add `kith` to your PATH or run it directly from the project folder.
 
 ---
 
+## License
+
+Kith-2.0 - A small custom transpiled language
+Copyright (C) 2026 PenguineDavid
+
+This program is free software: you can redistribute it and/or modify  
+it under the terms of the GNU General Public License as published by  
+the Free Software Foundation, either version 3 of the License, or  
+(at your option) any later version.
+
+See the [LICENSE](https://github.com/PenguineDavid/Kith-2.0/tree/main?tab=readme-ov-file) file for the full license text.
+
+---
+
 ## Usage
 
 ```bash
