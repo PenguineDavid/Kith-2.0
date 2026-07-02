@@ -1,5 +1,7 @@
 # Kith-2.0
 
+Full documentation webpage: [Click Me](https://penguinedavid.github.io/documentation/kith/index.html)
+
 A small compiled language that transpiles to C. Clean syntax, fast output, no runtime dependencies.
 
 ```kith
